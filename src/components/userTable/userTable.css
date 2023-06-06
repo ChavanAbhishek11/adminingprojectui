@@ -1,0 +1,54 @@
+.table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.table-head {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(235, 229, 229);
+  font-weight: bold;
+}
+.table-body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(235, 229, 229);
+
+  word-wrap: break-word;
+}
+
+.Action {
+  display: flex;
+  gap: 15px;
+  border: 0;
+}
+
+.UserEdit {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px 0;
+  gap: 10px;
+  margin-right: 15px;
+  border-bottom: 1px solid rgb(235, 229, 229);
+}
+
+.UserEdit input {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.UserEdit button {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 50%;
+}
+
+.UserEdit button:hover {
+  background-color: rgb(14, 104, 14);
+}
